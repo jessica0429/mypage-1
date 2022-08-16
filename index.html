@@ -1,162 +1,83 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="현정 profile">
-    <meta property="og:description" content="현동쓰">
-    <meta property="og:image" content="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/free_myprofile/%EA%B7%B8%EB%9D%BC%EB%8D%B0%EC%9D%B4%EC%85%98/%EB%B0%94%EB%8B%A4.png">
-    <title>현동쓰</title>
-    <style>
-        @import url('https://hangeul.pstatic.net/hangeul_static/css/nanum-barun-gothic.css" rel="stylesheet')
-        * {
-            font-family: "NanumBarunGothicBold";
-        }
-        body {
-            background-image: url('https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/free_myprofile/%ED%8C%AC+%ED%8E%98%EC%9D%B4%EC%A7%80/%EA%B5%AC%EB%A6%84%EB%B0%B0%EA%B2%BD.png');
-            background-position: center;
-            background-size: cover;
-            height: 130vh;
-        }
-        .profile {
-            width: 110px;
-            height: 110px;
-            border-radius: 100%;
-            border: 2px solid #ffffff;
-            background-image: url('./낙엽.jpg');
-            background-position: center;
-            background-size: cover;
-            margin-top: 70px;
-        }
-        .main {
-            color : #fffffff8;
-            font-size: 20px;
-            font-weight: 5px;
-            size : 20px;
-            margin-top: 40px;
-            margin-bottom: 7px;
-        }
-        .sub {
-            color : #93bfcdf8;
-            font-size: 13px;
-            font-weight: 550;
-            size : 13px;
-            margin-top: 0px;
-            margin-bottom: 55px;
-        }
-        .minis {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 0px;
-            gap: 12px;
-            margin-bottom: 50px;
-        }
-        .minis > a {
-            width: 305px;
-            height: 55px;
-            border-radius: 8px;
-            text-decoration: none;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 14px;
-            white-space:pre-wrap;
-            box-shadow: 1px 1px 4px 0px grey;
-        }
-        .minis > a:hover {
-            background-color: #f6f6f6;
-        }
-        .notion {
-            background: rgba(255, 255, 255, 0.8);
-            color:#134467;
-            font-weight: bold;
-        }
-        .brunch {
-            background: rgba(255, 255, 255, 0.8);
-            color:#134467;
-            font-weight: bold;
-        }
-        .facebook {
-            background: rgba(255, 255, 255, 0.8);
-            color:#134467;
-            font-weight: bold;
-        }
-        .wrap {
-            width: 320px;
-            margin: 30px auto 0px auto;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .bigs {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            padding: 0px;
-            gap: 15px;
-        }
-        .bigs > a {
-            width: 113px;
-            background-color: rgba(255, 255, 255, 0.8);
-            margin-bottom: 25px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-decoration: none;
-            padding: 20px 16px 20px 16px;
-            border-radius: 8px;
-            box-shadow: 1px 1px 4px 0px rgba(142, 142, 142, 0.69);
-        }
-        .name {
-            font-size: 13px;
-            font-weight: 700;
-            color: #20557a;
-            margin-bottom: 20px;
-        }
-        .desc {
-            font-size: 10px;
-            font-weight: 400;
-            color: #6f6f6f;
-            margin-bottom: 25px;
-        }
-        .btn {
-            font-size: 12px;
-            font-weight: 500;
-            color: #ffffff;
-            background-color: #2c5f7b;
-            border-radius: 6px;
-            padding: 5px 15px 5px 15px;
-        }
-        
-    </style>
-</head>
-<body>
-    <div class="wrap">
-        <div class="profile"></div>
-        <h1 class="main">현동쓰</h1>
-        <p class="sub">HYUNJUNG PROFILE</p>
-        <div class="minis">
-            <a class="notion" target="_blank" href="https://www.instagram.com/_97x2_1x1/">인스타그램 </a> 
-            <a class="brunch" target="_blank" href="https://blog.naver.com/guswjd0711">블로그 </a>
-            <a class="facebook" target="_blank" href="https://www.facebook.com/profile.php?id=100008811972535">페이스북 </a>
+    <head>
+        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
+             우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
+        <meta charset=“UTF-8” />
+        <meta http-equiv=“X-UA-Compatible” content=“IE=edge” />
+        <meta name=“viewport” content=“width=device-width, initial-scale=1.0” />
+        <meta property=“og:title” content=“제시카의 링크모음” />
+        <meta property=“og:description” content=“Do you know me?” />
+        <meta property=“og:image” content=“./낙엽.jpg” />
+        <title>제시카 프로필링크</title>
+        <style>
+            @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+*             {
+    font-family: "Pretendard",serif;
+                }
+                body {
+                    background-color: #44398a;
+                }
+                      .profile {                        
+                width: 100px;
+                height: 100px;
+                border-radius: 100%;
+                border: 2px white solid;
+                background-image: url('./낙엽.jpg');
+                background-position: center;
+                background-size: cover;
+            }
+            .main {
+                color: white;
+                font-size: 20px;
+                margin-top: 30px;
+                margin-bottom: 10px;
+            }
+            .sub {
+                color: white;
+                font-size: 14px;
+                margin-top: 0px;
+                margin-bottom: 30px;
+            }
+            .wrap {
+                width: 300px;
+                margin: 30px auto 0px auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .wrap>a {
+                width: 300px;
+                height: 50px;
+                background-color: white;
+                border-radius: 8px;
+                margin-bottom: 10px;
+                font-size: 14px;
+                font-weight: bold;
+                color: #44398a;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                box-shadow: 3px 3px 5px 0px black;
+            }
+            .wrap > a:hover {
+                background-color: #d2d2d2;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+        <div class="wrap">
+            <div class="profile"></div>
+            <h1 class="main">제시카</h1>
+            <p class="sub">Do you know me?</p>  
+            <a target="_blank" href="https://www.instagram.com/jessica_aratour_palau/">인스타그램</a>
+            <a target="_blank" href="https://blog.naver.com/josjes">네이버 블로그</a>
+            <a target="_blank" href="https://cafe.naver.com/palauaratour">네이버 카페 </a>            
         </div>
-        <div class="bigs">
-            <a target="_blank" href="https://drive.google.com/file/d/13CzHENkAfmVUFMJPVpseabMD8F9R_rV8/view?usp=sharing">
-                <div class="name">이력서</div>
-                <div class="desc">2022</div>
-                <div class="btn">다운로드</div>
-            </a>
-            <a target="_blank" href="https://drive.google.com/file/d/13CzHENkAfmVUFMJPVpseabMD8F9R_rV8/view?usp=sharing">
-                <div class="name">포트폴리오</div>
-                <div class="desc">2018-2022</div>
-                <div class="btn">다운로드</div>
-            </a>
-    </div>
-</body>
+      
+    </body>
 </html>
